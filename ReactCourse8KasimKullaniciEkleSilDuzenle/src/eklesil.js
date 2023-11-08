@@ -34,6 +34,20 @@ function Eklesil() {
     setKullanicilar(yeniKullanicilar);
   }
 
+
+  const handleDuzenleClick = (index) => {
+    // Kullanıcıyı silmek için indeksi kullanarak yeni bir kullanıcılar dizisi oluşturun
+    const yeniKullanicilar = [...kullanicilar];
+
+    const kullanici=yeniKullanicilar.filter((kullanici,i)=>i===index);
+    const yeniler=yeniKullanicilar.filter((kullanici,i)=>i!=index);
+
+    setKullanicilar(yeniler);
+
+    setYeniAd(kullanici[0].ad);
+    setYeniSoyad(kullanici[0].soyad);
+  }
+
   return (
     <div className="mt-2 col-md-2 mt-5">
       <div className="form-group">
@@ -71,6 +85,10 @@ function Eklesil() {
               onClick={() => handleSilClick(index)}
             >
               Sil
+            </button>
+            <button className="btn btn-success float-right ms-2"
+             onClick={() => handleDuzenleClick(index)}>
+              Düzenle
             </button>
           </li>
         ))}
