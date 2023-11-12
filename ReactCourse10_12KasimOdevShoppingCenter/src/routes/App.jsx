@@ -1,13 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Header';
-import Kategoriler from './kategoriler';
-import Urunler from './Urunler';
+
+import '../App.css';
+import Header from '../Header';
+import Kategoriler from '../kategoriler';
+import Urunler from '../Urunler';
 import { useState,useEffect } from 'react';
 import axios from 'axios';
+import * as ReactDOM from "react-dom/client";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import React from 'react';
 
 function App() {
-
+  
+  const router = createBrowserRouter([
+    {
+      path: "/kategoriler",
+      element: <Kategoriler />,
+    },
+  ]);
   const [dolarFiyati,setDolarFiyati]=useState(0);
 
   const [kategoriler, setKategoriler] = useState([
@@ -128,7 +140,7 @@ function App() {
 
   return (
     <div className="App">
-      
+        
         <Header seciliUrunler={seciliUrunler} removeFromCart={removeFromCart}  onaylaSepet={onaylaSepet} bosaltSepet={bosaltSepet}/>
         <div className='row ms-0 me-0'>
         <div className='col-md-1'></div>
@@ -136,10 +148,21 @@ function App() {
         
         <Urunler urunler={urunler} sepeteEkle={sepeteEkle}/>
         </div>
+       
         
 
     </div>
   );
 }
+
+
+const About = () => {
+  return (
+    <div>
+      <h1>Hakkımızda</h1>
+      <p>Bu, hakkımızda sayfasıdır.</p>
+    </div>
+  );
+};
 
 export default App;

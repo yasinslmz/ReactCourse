@@ -31,15 +31,11 @@ function Header({seciliUrunler,removeFromCart,onaylaSepet,bosaltSepet}) {
         <NavbarToggler onClick={toggle} className="ml-auto" />
         <Collapse isOpen={isOpen} navbar className='justify-content-end'>
           <Nav className="ml-auto " navbar>
-            <NavItem>
-              <NavLink href="#">Kategoriler</NavLink>
-            </NavItem>
+            
             <NavItem>
               <NavLink href="#">Ürünler</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="#">İletişim</NavLink>
-            </NavItem>
+           
             <UncontrolledDropdown nav inNavbar className='ml-auto'>
                   <DropdownToggle nav caret className='genis-dropdown-toggle'>
                     Sepet {'{'}{toplamUrun}{'}'} - Toplam {toplamFiyat} TL
