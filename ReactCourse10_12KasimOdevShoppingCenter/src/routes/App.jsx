@@ -14,12 +14,7 @@ import React from 'react';
 
 function App() {
   
-  const router = createBrowserRouter([
-    {
-      path: "/kategoriler",
-      element: <Kategoriler />,
-    },
-  ]);
+ 
   const [dolarFiyati,setDolarFiyati]=useState(0);
 
   const [kategoriler, setKategoriler] = useState([

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Outlet, Link } from "react-router-dom";
 function Kategoriler({ kategoriler, urunler, yeniUrun, setYeniUrun, dolarFiyati, setResimPath, urunEkle }) {
   const [urunEkleFormGoster, setUrunEkleFormGoster] = useState(false);
 
@@ -31,9 +31,12 @@ function Kategoriler({ kategoriler, urunler, yeniUrun, setYeniUrun, dolarFiyati,
       <ul className="list-group ">
         {kategoriler.map((kategori, index) => (
           <li key={index} className="mt-2 list-group-item">
-            <a className="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+            
+            <Link className='link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover'
+             to="/kategorigrup" state={urunler} ><a className="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
               {kategori["ad"]}
-            </a>
+            </a></Link>
+
           </li>
         ))}
       </ul>
