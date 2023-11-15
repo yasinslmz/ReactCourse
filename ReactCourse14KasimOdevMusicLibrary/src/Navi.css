@@ -1,0 +1,11 @@
+.borderless {
+    border: none !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.navbg {
+    background-color: rgba(5, 180, 5) !important;
+}

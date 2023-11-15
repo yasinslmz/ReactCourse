@@ -1,0 +1,296 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "categoryID": 2,
+      "albumName": "Chai",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 18
+
+    },
+    {
+      "id": 2,
+      "categoryID": 1,
+      "albumName": "Chang",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 19
+    },
+    {
+      "id": 4,
+      "categoryID": 1,
+      "albumName": "Chef Anton's Cajun Seasoning",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 22
+    },
+    {
+      "id": 5,
+      "categoryID": 2,
+      "albumName": "Chef Anton's Gumbo Mix",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 21.35
+    },
+    {
+      "id": 6,
+      "categoryID": 2,
+      "albumName": "Grandma's Boysenberry Spread",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 25
+    },
+    {
+      "id": 7,
+      "categoryID": 7,
+      "albumName": "Uncle Bob's Organic Dried Pears",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 30
+    },
+    {
+      "id": 8,
+      "categoryID": 2,
+      "albumName": "Northwoods Cranberry Sauce",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 40
+    },
+    {
+      "id": 9,
+      "categoryID": 6,
+      "albumName": "Mishi Kobe Niku",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 97
+    },
+    {
+      "id": 10,
+      "categoryID": 8,
+      "albumName": "Ikura",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 31
+    },
+    {
+      "id": 11,
+      "categoryID": 4,
+      "albumName": "Queso Cabrales",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 21
+    },
+    {
+      "id": 12,
+      "categoryID": 4,
+      "albumName": "Queso Manchego La Pastora",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 38
+    },
+    {
+      "id": 13,
+      "categoryID": 8,
+      "albumName": "Konbu",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 6
+    },
+    {
+      "id": 14,
+      "categoryID": 7,
+      "albumName": "Tofu",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 23.25
+    },
+    {
+      "id": 15,
+      "categoryID": 2,
+      "albumName": "Genen Shouyu",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 15.5
+    },
+    {
+      "id": 16,
+      "categoryID": 3,
+      "albumName": "Pavlova",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 17.45
+    },
+    {
+      "id": 17,
+      "categoryID": 6,
+      "albumName": "Guiza",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 35
+    },
+    {
+      "id": 18,
+      "categoryID": 8,
+      "albumName": "Carnarvon Tigers",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 62.5
+    },
+    {
+      "id": 19,
+      "categoryID": 3,
+      "albumName": "Teatime Chocolate Biscuits",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 9.2
+    },
+    {
+      "id": 20,
+      "categoryID": 3,
+      "albumName": "Sir Rodney's Marmalade",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 81
+    },
+    {
+      "id": 21,
+      "categoryID": 3,
+      "albumName": "Sir Rodney's Scones",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 10
+    },
+    {
+      "id": 22,
+      "categoryID": 5,
+      "albumName": "Gustaf's Knäckebröd",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 21
+    },
+    {
+      "id": 23,
+      "categoryID": 5,
+      "albumName": "Tunnbröd",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 9
+    },
+    {
+      "id": 24,
+      "categoryID": 1,
+      "albumName": "Guaraná Fantástica",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 4.5
+    },
+    {
+      "id": 25,
+      "categoryID": 3,
+      "albumName": "NuNuCa Nuß-Nougat-Creme",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 14
+    },
+    {
+      "id": 26,
+      "categoryID": 3,
+      "albumName": "Gumbär Gummibärchen",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 31.23
+    },
+    {
+      "id": 27,
+      "categoryID": 3,
+      "albumName": "Schoggi Schokolade",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 43.9
+    },
+    {
+      "id": 28,
+      "categoryID": 7,
+      "albumName": "Rössle Sauerkraut",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 45.6
+    },
+    {
+      "id": 29,
+      "categoryID": 6,
+      "albumName": "Thüringer Rostbratwurst",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 123.79
+    },
+    {
+      "id": 30,
+      "categoryID": 8,
+      "albumName": "Nord-Ost Matjeshering",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 25.89
+    },
+    {
+      "id": 31,
+      "categoryID": 4,
+      "albumName": "Gorgonzola Telino",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+        "price": 12.5
+    },
+    {
+      "id": 32,
+      "categoryID": 4,
+      "albumName": "Mascarpone Fabioli",
+      "image":"https://fastly.picsum.photos/id/985/318/180.jpg?hmac=olQDIrAVU9UB1AW6rXGX1yMrBubrP4JXEfvQHOBME7E",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio.",
+      "price": 4.99
+    }
+
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Rap"
+
+    },
+    {
+      "id": 2,
+      "categoryName": "Rock"
+
+    },
+    {
+      "id": 3,
+      "categoryName": "R&B"
+
+    },
+    {
+      "id": 4,
+      "categoryName": "Slow"
+
+    },
+    {
+      "id": 5,
+      "categoryName": "Pop"
+
+    },
+    {
+      "id": 6,
+      "categoryName": "90s"
+
+    },
+    {
+      "id": 7,
+      "categoryName": "Electro"
+
+    },
+    {
+      "id": 8,
+      "categoryName": "Jazz"
+
+    }
+  ]
+}
