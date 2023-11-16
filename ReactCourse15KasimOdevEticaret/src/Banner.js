@@ -91,7 +91,7 @@ export default class Banner  extends Component {
 
                                                     </div>
 
-                                        <img src={this.state.bannerProducts[0].resim} onClick={()=>this.handleCategoryClick(this.state.bannerProducts[0].kategoriId)}  height={"350"}/>
+                                       <a href="#men"> <img src={this.state.bannerProducts[0].resim} onClick={()=>this.handleCategoryClick(this.state.bannerProducts[0].kategoriId)}  height={"350"}/></a>
                                     </div>
                                         )
                                     }
@@ -108,7 +108,7 @@ export default class Banner  extends Component {
                                             
                                         </div>
                                        
-                                        <img src={this.state.bannerProducts[4].resim}   onClick={()=>this.handleCategoryClick(this.state.bannerProducts[4].kategoriId)} height={"350"}/>
+                                        <a href="#men"><img src={this.state.bannerProducts[4].resim}   onClick={()=>this.handleCategoryClick(this.state.bannerProducts[4].kategoriId)} height={"350"}/></a>
                                     </div>
                                         )
                                     }
@@ -124,7 +124,7 @@ export default class Banner  extends Component {
                                             
                                         </div>
                                        
-                                        <img src={this.state.bannerProducts[3].resim}   height={"320"} onClick={()=>this.handleCategoryClick(this.state.bannerProducts[3].kategoriId)}/>
+                                        <a href="#men"> <img src={this.state.bannerProducts[3].resim}   height={"320"} onClick={()=>this.handleCategoryClick(this.state.bannerProducts[3].kategoriId)}/></a>
                                     </div>
                                         )
                                     }
@@ -140,7 +140,7 @@ export default class Banner  extends Component {
                                             
                                         </div>
                                        
-                                        <img src={this.state.bannerProducts[2].resim}   onClick={()=>this.handleCategoryClick(this.state.bannerProducts[2].kategoriId)} height={"320"}/>
+                                        <a href="#men"> <img src={this.state.bannerProducts[2].resim}   onClick={()=>this.handleCategoryClick(this.state.bannerProducts[2].kategoriId)} height={"320"}/></a>
                                     </div>
                                         )
                                     }

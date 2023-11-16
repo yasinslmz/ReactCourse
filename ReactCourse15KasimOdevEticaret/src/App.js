@@ -13,7 +13,8 @@ export default class App extends Component {
   constructor(props){
     super(props);
     this.state={
-      seciliKategori:null
+      seciliKategori:null,
+      sepetUrunleri:[]
     }
   }
 
@@ -31,6 +32,11 @@ export default class App extends Component {
       console.log('Güncel kategori:', this.state.seciliKategori);
    
   }
+  sepeteEkle=(urun)=>{
+
+    this.setState({sepetUrunleri:[...this.state.sepetUrunleri,urun]});
+
+  }
 
   
   render() {
@@ -39,9 +45,9 @@ export default class App extends Component {
 
     return (
       <div className="App">
-      <Header kategoriSec={this.kategoriSec}/>
+      <Header kategoriSec={this.kategoriSec} sepetUrunleri={this.state.sepetUrunleri}/>
       <Banner kategoriSec={this.kategoriSec}/>
-      <Products seciliKategori={this.state.seciliKategori} />
+      <Products seciliKategori={this.state.seciliKategori} sepeteEkle={this.sepeteEkle} />
 
     </div>
     )

@@ -26,6 +26,7 @@ export default class Products extends Component {
                 this.fetchBlogs();
                 
             }
+            
       
 
         
@@ -78,6 +79,8 @@ export default class Products extends Component {
                                     <h5 className="card-title"><strong>{product.ad}</strong></h5>
     
                                     <p className="card-text">Fiyat: {product.fiyat} TL</p>
+                                    <a href="#" className="btn btn-info mt-1" onClick={()=>this.props.sepeteEkle(product)}>Sepete Ekle</a>
+
     
                                 </div>
                             </div>
