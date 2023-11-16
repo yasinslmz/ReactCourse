@@ -5,6 +5,7 @@ export default class Banner  extends Component {
         super(props);
         this.state = {
             bannerProducts: [],
+            kategoriler: [],        
             error: null,
         };
     }
@@ -15,6 +16,8 @@ export default class Banner  extends Component {
     };
 
     componentDidMount() {
+              
+            
         fetch('http://localhost:3000/urunler')
             .then(response => response.json())
             .then(data => {
@@ -32,7 +35,17 @@ export default class Banner  extends Component {
                 console.error('Veri çekme hatası:', error);
                 this.setState({error: 'Veri çekme hatası'});
             });
+            
+           
+            
+
+            
+
     }
+
+   
+
+
 
   render() {
 
@@ -46,7 +59,7 @@ export default class Banner  extends Component {
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left-content">
-
+                
                 {
                     this.state.bannerProducts.length>0 && (
                         <div class="thumb">
@@ -70,14 +83,14 @@ export default class Banner  extends Component {
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="right-first-image">
-                                {
-                                    this.state.bannerProducts.length>0 && (
-                                        <div class="thumb">
-                                        <div class="inner-content">
-                                            <h4>{this.state.bannerProducts[0].ad} </h4>
-                                            
-                                        </div>
-                                       
+                                        {
+                                            this.state.bannerProducts.length > 0 && (
+                                                <div class="thumb">
+                                                    <div class="inner-content">
+                                                        <h4>{this.state.bannerProducts[0].kategoriAd}</h4>
+
+                                                    </div>
+
                                         <img src={this.state.bannerProducts[0].resim} onClick={()=>this.handleCategoryClick(this.state.bannerProducts[0].kategoriId)}  height={"350"}/>
                                     </div>
                                         )
@@ -91,7 +104,7 @@ export default class Banner  extends Component {
                                     this.state.bannerProducts.length>0 && (
                                         <div class="thumb">
                                         <div class="inner-content">
-                                            <h4>{this.state.bannerProducts[4].ad}</h4>
+                                        <h4>{this.state.bannerProducts[4].kategoriAd}</h4>
                                             
                                         </div>
                                        
@@ -107,7 +120,7 @@ export default class Banner  extends Component {
                                     this.state.bannerProducts.length>0 && (
                                         <div class="thumb">
                                         <div class="inner-content">
-                                            <h4>{this.state.bannerProducts[3].ad}</h4>
+                                        <h4>{this.state.bannerProducts[3].kategoriAd}</h4>
                                             
                                         </div>
                                        
@@ -123,7 +136,7 @@ export default class Banner  extends Component {
                                     this.state.bannerProducts.length>0 && (
                                         <div class="thumb">
                                         <div class="inner-content">
-                                            <h4>{this.state.bannerProducts[2].ad}</h4>
+                                        <h4>{this.state.bannerProducts[2].kategoriAd}</h4>
                                             
                                         </div>
                                        

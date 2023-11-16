@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Header';
 import Banner from './Banner';
 import Products from './Products';
-import { useEffect } from 'react';
+
 
 import React, { Component } from 'react'
 
@@ -21,10 +21,16 @@ export default class App extends Component {
   kategoriSec =(kategoriId)=>{
 
     this.setState({seciliKategori:kategoriId});
-    
+    console.log(kategoriId);
     
   }
-
+  componentDidUpdate(prevProps, prevState) {
+    // Eğer state değiştiyse ve güncellenen state seciliKategori ise,
+    // Products bileşenine güncel kategoriyi iletiyoruz.
+    
+      console.log('Güncel kategori:', this.state.seciliKategori);
+   
+  }
 
   
   render() {
@@ -35,7 +41,7 @@ export default class App extends Component {
       <div className="App">
       <Header kategoriSec={this.kategoriSec}/>
       <Banner kategoriSec={this.kategoriSec}/>
-      <Products seciliKategori={this.state.seciliKategori}/>
+      <Products seciliKategori={this.state.seciliKategori} />
 
     </div>
     )

@@ -44,7 +44,7 @@ export default class Products extends Component {
             .then((response) => response.json())
             .then((data) => {
                 // console.log('Gelen veri:', data);
-                console.log(this.props.seciliKategori);
+               
                 if (data) {
                     this.setState({selectedProducts: data});
                 } else {

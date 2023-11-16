@@ -47,7 +47,7 @@ export default class Header extends Component {
                      
                         <ul class="nav">
                             {
-                                this.state.kategoriler.map(kategori=>(<li class="scroll-to-section"><a href="" onClick={()=>this.handleCategoryClick(kategori.id)}>{kategori.ad}</a></li>))
+                                this.state.kategoriler.map(kategori=>(<li class="scroll-to-section"><a href="#" onClick={()=>this.handleCategoryClick(kategori.id)}>{kategori.ad}</a></li>))
                             }
                             
                             <li class="submenu">
