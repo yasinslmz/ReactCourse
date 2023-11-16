@@ -1,0 +1,142 @@
+{
+  "kategoriler": [
+    {
+      "id": 1,
+      "ad": "Erkek"
+    },
+    {
+      "id": 2,
+      "ad": "Kadın"
+    },
+    {
+      "id": 3,
+      "ad": "Çocuk"
+    },
+    {
+      "id": 4,
+      "ad": "Aksesuar"
+    }
+  ],
+  "urunler": [
+    {
+      "id": 101,
+      "ad": "Gömlek",
+      "fiyat": 50,
+      "kategoriId": 1,
+      "resim": "https://witcdn.lufian.com/daniel-erkek-basic-gomlek-slim-fit-beyaz-slim-fit-gomlek-lufian-292038-61-B.jpg",
+      "banner": 1,
+      "kategoriAd": "Erkek",
+      "favoriSayisi": 18
+    },
+    {
+      "id": 103,
+      "ad": "Spor Ayakkabı",
+      "fiyat": 120,
+      "kategoriId": 1,
+      "resim": "https://img.jump.com.tr/jump-27689-siyah-erkek-spor-ayakkabi-sneaker-jump-27689-134561-44-B.jpg",
+      "banner": 1,
+      "kategoriAd": "Erkek",
+      "favoriSayisi": 6
+    },
+    {
+      "id": 201,
+      "ad": "Elbise",
+      "fiyat": 100,
+      "kategoriId": 2,
+      "resim": "https://static.ticimax.cloud/38272/uploads/urunresimleri/buyuk/mini-cicek-desenli-drapeli-nora-kadin--a-4973.jpg",
+      "banner": 1,
+      "kategoriAd": "Kadın",
+      "favoriSayisi": 12
+    },
+    {
+      "id": 202,
+      "ad": "Çanta",
+      "fiyat": 80,
+      "kategoriId": 2,
+      "resim": "https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=85,format=auto/52168/uploads/urunresimleri/buyuk/siyah-mumlu-kanvas-canta-0cb601.jpg",
+      "banner": 0,
+      "kategoriAd": "Kadın",
+      "favoriSayisi": 9
+    },
+    {
+      "id": 203,
+      "ad": "Topuklu Ayakkabı",
+      "fiyat": 150,
+      "kategoriId": 2,
+      "resim": "https://www.modaadam.com/i/l/005/0059555_kadin-margaret-suet-topuklu-ayakkabi-siyah-siyah.jpeg",
+      "banner": 0,
+      "kategoriAd": "Kadın",
+      "favoriSayisi": 7
+    },
+    {
+      "id": 301,
+      "ad": "Oyuncak Araba",
+      "fiyat": 20,
+      "kategoriId": 3,
+      "resim": "https://cdn.cimri.io/image/860x860/pilsan-panther-12-v-kumandali-akulu-oyuncak-araba_617239606.jpg",
+      "banner": 0,
+      "kategoriAd": "Çocuk",
+      "favoriSayisi": 10
+    },
+    {
+      "id": 302,
+      "ad": "Çocuk Ayakkabı",
+      "fiyat": 40,
+      "kategoriId": 3,
+      "resim": "https://floimages.mncdn.com/media/catalog/product/21-09/27/t2405_bej_1.JPG",
+      "banner": 1,
+      "kategoriAd": "Çocuk",
+      "favoriSayisi": 5
+    },
+    {
+      "id": 303,
+      "ad": "Sweatshirt",
+      "fiyat": 35,
+      "kategoriId": 3,
+      "resim": "https://img-lcwaikiki.mncdn.com/mnresize/1020/1360/mpsellerportal/v1/img_044622961v1_74fe898a-f9b1-40d1-be48-04f3d1a45b9c.jpg",
+      "banner": 0,
+      "kategoriAd": "Çocuk",
+      "favoriSayisi": 8
+    },
+    {
+      "id": 102,
+      "ad": "Pantolon",
+      "fiyat": 70,
+      "kategoriId": 1,
+      "resim": "https://www.zafoni.com/i/l/006/0069574_erkek-likrali-boyfriend-jean-denim-kot-pantolon-gri.jpeg",
+      "banner": 0,
+      "kategoriAd": "Erkek",
+      "favoriSayisi": 22
+    },
+    {
+      "id": 401,
+      "ad": "Gözlük",
+      "fiyat": 25,
+      "kategoriId": 4,
+      "resim": "https://gettoderi.com/wp-content/uploads/2022/09/getto-deri-mavi-isik-korumali-gozluk-visso003.jpg",
+      "banner": 1,
+      "kategoriAd": "Aksesuar",
+      "favoriSayisi": 11
+    },
+    {
+      "id": 402,
+      "ad": "Şapka",
+      "fiyat": 15,
+      "kategoriId": 4,
+      "resim": "https://www.titizbaski.com/image/cache/catalog/sapka/polyester-sapka-mavi-promosyon-tekstil-urunleri-1000x1000.jpg",
+      "banner": 1,
+      "kategoriAd": "Aksesuar",
+      "favoriSayisi": 6
+    },
+    {
+      "id": 403,
+      "ad": "Kolye",
+      "fiyat": 30,
+      "kategoriId": 4,
+      "resim": "https://www.kostebek.com.tr/productimages/119820/big/d6103431-5831-4174-884b-4f0536ec0d68.jpg",
+      "banner": 1,
+      "kategoriAd": "Aksesuar",
+      "favoriSayisi": 15
+    }
+  ]
+}
