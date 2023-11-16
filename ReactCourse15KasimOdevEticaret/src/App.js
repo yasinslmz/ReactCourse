@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Header';
 import Banner from './Banner';
 import Products from './Products';
-
+import { useEffect } from 'react';
 
 import React, { Component } from 'react'
 
@@ -21,18 +21,20 @@ export default class App extends Component {
   kategoriSec =(kategoriId)=>{
 
     this.setState({seciliKategori:kategoriId});
-   
+    
     
   }
 
-  render() {
 
+  
+  render() {
+   
     
 
     return (
       <div className="App">
       <Header kategoriSec={this.kategoriSec}/>
-      <Banner/>
+      <Banner kategoriSec={this.kategoriSec}/>
       <Products seciliKategori={this.state.seciliKategori}/>
 
     </div>

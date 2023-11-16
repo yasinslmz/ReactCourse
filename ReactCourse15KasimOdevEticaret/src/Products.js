@@ -21,10 +21,14 @@ export default class Products extends Component {
 
     componentDidUpdate(prevProps){
 
-        if (prevProps.seciliKategori !== this.props.seciliKategori) {
-            this.fetchBlogs();
-            console.log("hello");
-        }
+       
+            if (prevProps.seciliKategori !== this.props.seciliKategori) {
+                this.fetchBlogs();
+                
+            }
+      
+
+        
 
 
     }
@@ -39,7 +43,7 @@ export default class Products extends Component {
         fetch(apiUrl)
             .then((response) => response.json())
             .then((data) => {
-                console.log('Gelen veri:', data);
+                // console.log('Gelen veri:', data);
                 console.log(this.props.seciliKategori);
                 if (data) {
                     this.setState({selectedProducts: data});
